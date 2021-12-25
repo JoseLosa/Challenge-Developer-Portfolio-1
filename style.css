@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Prata';
+    src: url('font/Prata-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-VariableFont_slnt\,wght.ttf'); 
+}
+
+p {
+    margin-bottom: 0 !important;
+    padding-bottom: 1rem;
+}
+.navbar-brand, h1, h2, footer{
+    font-family: 'Prata';
+}
+ul{
+    font-family: 'Inter';
+    font-size: 120%;
+}
+p, button{
+    font-family: 'Inter';
+}
+.site{
+    background-color: black;
+}
